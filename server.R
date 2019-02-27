@@ -13,4 +13,4 @@ shinyServer(function(input,output) {
   output$DESummary <- renderPrint({
     summary(data.de[, input$field])
   })
-}
+})
